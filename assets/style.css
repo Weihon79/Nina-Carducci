@@ -82,8 +82,8 @@ body {
 .about-me__introduction {
 	font-family: 'Spectral';
 	font-weight: 800;
+	font-size: 16px; /*changement taille et 60% width enlevé car passage en h3*/
 	font-style: italic;
-	width: 60%;
 }
 #about-me p {
 	width: 80%;
@@ -102,7 +102,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #914003; /*#BEB45A changé en #914003 pour meilleur contrast*/
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
